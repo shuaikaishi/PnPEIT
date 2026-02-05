@@ -22,7 +22,8 @@ SL-NLM: Sparse Learning with non-local means denoising
 
 **GLSL-BM3D**: GLSL with BM3D denoising
 
-**Swin-Transformer as denoiser**: Download the pretrained [weight](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/004_grayDN_DFWB_s128w8_SwinIR-M_noise15.pth) and put into `./swinir/`.
+**GLSL-ST**: Download the pretrained [weight](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/004_grayDN_DFWB_s128w8_SwinIR-M_noise15.pth) of Swin-Transformer and put into `./swinir/`.
+
 Run `python -data data pnpeit.py`
 
 

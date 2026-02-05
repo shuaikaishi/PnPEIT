@@ -11,6 +11,7 @@ Fast and accurate Electrical Impedance Tomography reconstruction using hybrid re
 `runGLSLlung.m` for human breathing dataset.
 
 Available Methods
+
 **GLSL**: Graph Laplacian and Sparse Learning
 
 **GLSL-BM3D**: GLSL with BM3D denoising

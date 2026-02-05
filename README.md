@@ -10,16 +10,20 @@ Fast and accurate Electrical Impedance Tomography reconstruction using hybrid re
 
 `runGLSLlung.m` for human breathing dataset.
 
-Available Methods
-
-**GLSL**: Graph Laplacian and Sparse Learning
-
-**GLSL-BM3D**: GLSL with BM3D denoising
-
-SL-NLM: Sparse Learning with non-local means denoising
+## Available Methods
 
 SL: Sparse Learning
 
+**GLSL**: Graph Laplacian and Sparse Learning
+
+### Plug-and-play method
+
+SL-NLM: Sparse Learning with non-local means denoising
+
+**GLSL-BM3D**: GLSL with BM3D denoising
+
+**Swin-Transformer as denoiser**: Download the pretrained [weight](https://github.com/JingyunLiang/SwinIR/releases/download/v0.0/004_grayDN_DFWB_s128w8_SwinIR-M_noise15.pth) and put into `./swinir/`.
+Run `python -data data pnpeit.py`
 
 
 ## Data Sources

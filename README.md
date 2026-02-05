@@ -21,8 +21,8 @@ SL: Sparse Learning
 
 
 
-Data Sources
-Human Lung Data
+## Data Sources
+### Human Lung Data
 The clinical EIT data was obtained from studies on human subjects.
 ```
 @article{heinrich2006body,
@@ -67,7 +67,7 @@ The clinical EIT data was obtained from studies on human subjects.
 }
 ```
 
-Water Tank Data
+### Water Tank Data
 The experimental EIT data was sourced from an open-access archive:
 ```
 @article{uef2017,
